@@ -1,0 +1,137 @@
+export const Daily = [
+    {
+        id:1,
+        time:"5hrs",
+        lw:"7hrs",
+        act:"Work",
+        bgc:"#ff8c66"
+    },
+    {
+        id:1,
+        time:"1hrs",
+        lw:"2hrs",
+        act:"Play",
+        bgc:"#56c2e6"
+    },
+    {
+        id:1,
+        time:"0hrs",
+        lw:"1hrs",
+        act:"Study",
+        bgc:"#ff5c7c"
+    },
+    {
+        id:1,
+        time:"1hrs",
+        lw:"1hrs",
+        act:"Exercise",
+        bgc:"#4acf81"
+    },
+    {
+        id:1,
+        time:"1hrs",
+        lw:"3hrs",
+        act:"Social",
+        bgc:"#7536d3"
+    },
+    {
+        id:1,
+        time:"0hrs",
+        lw:"1hrs",
+        act:"Self Care",
+        bgc:"#f1c65b"
+    },
+
+]
+
+export const weekly = [
+    {
+        id:1,
+        time:"32hrs",
+        lw:"36hrs",
+        act:"Work",
+        bgc:"#ff8c66"
+    },
+    {
+        id:1,
+        time:"10hrs",
+        lw:"8hrs",
+        act:"Play",
+        bgc:"#56c2e6"
+    },
+    {
+        id:1,
+        time:"4hrs",
+        lw:"7hrs",
+        act:"Study",
+        bgc:"#ff5c7c"
+    },
+    {
+        id:1,
+        time:"4hrs",
+        lw:"5hrs",
+        act:"Exercise",
+        bgc:"#4acf81"
+    },
+    {
+        id:1,
+        time:"5hrs",
+        lw:"10hrs",
+        act:"Social",
+        bgc:"#7536d3"
+    },
+    {
+        id:1,
+        time:"2hrs",
+        lw:"2hrs",
+        act:"Self Care",
+        bgc:"#f1c65b"
+    },
+
+]
+
+export const monthly = [
+    {
+        id:1,
+        time:"103hrs",
+        lw:"128hrs",
+        act:"Work",
+        bgc:"#ff8c66"
+    },
+    {
+        id:1,
+        time:"23hrs",
+        lw:"29hrs",
+        act:"Play",
+        bgc:"#56c2e6"
+    },
+    {
+        id:1,
+        time:"13hrs",
+        lw:"19hrs",
+        act:"Study",
+        bgc:"#ff5c7c"
+    },
+    {
+        id:1,
+        time:"11hrs",
+        lw:"18hrs",
+        act:"Exercise",
+        bgc:"#4acf81"
+    },
+    {
+        id:1,
+        time:"21hrs",
+        lw:"13hrs",
+        act:"Social",
+        bgc:"#7536d3"
+    },
+    {
+        id:1,
+        time:"7hrs",
+        lw:"11hrs",
+        act:"Self Care",
+        bgc:"#f1c65b"
+    },
+
+]

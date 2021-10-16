@@ -1,0 +1,383 @@
+body {
+  margin: 0;
+  background-color: #0f1424;
+}
+main{
+  padding-top: 50px;
+  height: 85vh;
+  width: 80%;
+  background-color: #0f1424;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+main .first{
+  flex: 4;
+  height: 100%;
+}
+main .first .cont{
+  width: 70%;
+  height: 100%;
+  background-color: #1c1f4a;
+  margin: auto;
+  border-radius: 25px;
+}
+main .first .cont h3{
+  padding-left: 30px;
+  width: 20%;
+  font-size: 14px;
+  padding-top: 70px;
+  font-family: 'Roboto', sans-serif;
+}
+main .first .cont h1{
+  padding-left: 30px;
+  width: 20%;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+main .first .cont span img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: solid 4px white;
+}
+main .first .cont span{
+  padding-left: 30px;
+  padding-top: 70px;
+}
+
+main .first .cont .user{
+  width: 100%;
+  background-color: #5847eb;
+  height: 500px;
+  color: aliceblue;
+  border-radius: 25px;
+}
+main .first .cont ul{
+  list-style: none;
+  font-size: 16px;
+  color: white;
+}
+main .second{
+  flex: 8;
+  height: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-left: -60px;
+}
+main .second .items{
+  width: 300px;
+  height: 300px;
+  background-color: tomato;
+  margin: 10px;
+  border-radius: 25px;
+}
+main .second .items .inner{
+  width: 300px;
+  height: 260px;
+  background-color: #1c1f4a;
+  margin-top: 40px;
+  z-index: 4;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: opacity 0.5s linear;
+}
+main .second .items .inner:hover{
+  opacity: 0.8;
+}
+main .second .items .inner h3{
+  padding: 40px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+main .second .items .inner p{
+  padding: 40px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+main .second .items .inner h1{
+  padding-left: 40px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+ul li{
+  color: rgb(88, 80, 80);
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+ul .active{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width:770px){
+  main{
+    padding-top: 50px;
+    height: 50vh;
+    width: 100%;
+    background-color: #0f1424;
+    margin: auto;
+    display: block;
+  }
+  main .first{
+    flex: 4;
+    height: 50%;
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  main .first .cont{
+    width: 90%;
+    height: 100px;
+    background-color: #1c1f4a;
+    margin: auto;
+    border-radius: 25px;
+  }
+  main .first .cont h3{
+    padding-left: 30px;
+    width: 80%;
+    font-size: 14px;
+    padding-top: 0px;
+    font-family: 'Roboto', sans-serif;
+  }
+  main .first .cont h1{
+    padding-left: 30px;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  main .first .cont span img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid 4px white;
+  }
+  main .first .cont .user{
+    width: 100%;
+    background-color: #5847eb;
+    height: 200px;
+    color: aliceblue;
+    border-radius: 25px;
+  }
+  main .first .cont ul{
+    list-style: none;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  main .second{
+    flex: 8;
+    height: 100%;
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-left: 0px;
+    margin-top: 50px;
+    height: 1800px;
+    padding-top: 0px;
+  }
+  main .second .items{
+    width: 80%;
+    height: 200px;
+    margin: 10px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 90px;
+  }
+  main .second .items .inner{
+    width: 100%;
+    height: 160px;
+    background-color: #1c1f4a;
+    z-index: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: opacity 0.5s linear;
+  }
+  main .second .items .inner h3{
+    padding: 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  main .second .items .inner p{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  main .second .items .inner h1{
+    padding-left: 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+@media screen and (max-width:1024px) and (min-width:771px){
+  main .first .cont h3{
+    padding-left: 30px;
+    width: 80%;
+    font-size: 14px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  main .first .cont .user{
+    width: 100%;
+    background-color: #5847eb;
+    height: 300px;
+    color: aliceblue;
+    border-radius: 25px;
+  }
+  main .first .cont h1{
+    padding-left: 30px;
+    width: 80%;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  main .first .cont{
+    width: 90%;
+    height: 80%;
+    background-color: #1c1f4a;
+    margin: auto;
+    border-radius: 25px;
+  }
+  main{
+    padding-top: 50px;
+    height: 100vh;
+    width: 95%;
+    background-color: #0f1424;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  main .second{
+    flex: 8;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-left: 0px;
+    margin-top: -220px;
+  }
+  main .second .items{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  main .second .items .inner{
+    width: 100%;
+    height: 180px;
+    background-color: #1c1f4a;
+    z-index: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: opacity 0.5s linear;
+  }
+  main .second .items .inner h3{
+    padding: 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  main .second .items .inner p{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  main .second .items .inner h1{
+    padding-left: 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+}
+@media screen and (max-width:1440px) and (min-width:1025px){
+  main .second{
+    flex: 8;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-left: -20px;
+    margin-top: -280px;
+  }
+  main .second .items{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  main .second .items .inner{
+    width: 100%;
+    height: 210px;
+    background-color: #1c1f4a;
+    z-index: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: opacity 0.5s linear;
+  }
+  main{
+    height: 100vh;
+    width: 100%;
+    background-color: #0f1424;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 50px;
+  }
+  main .first .cont{
+    width: 80%;
+    height: 80%;
+    background-color: #1c1f4a;
+    margin: auto;
+    border-radius: 25px;
+  }
+  main .first .cont h3{
+    padding-left: 30px;
+    width: 80%;
+    font-size: 14px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  main .second .items .inner h3{
+    padding:10px 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  main .second .items .inner p{
+    padding: 10px 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  main .second .items .inner h1{
+    padding-left: 10px 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+}
